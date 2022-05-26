@@ -1,0 +1,55 @@
+a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 4vh;
+    color: white;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.icon_cart
+{
+    font-size: 30px;
+    color: white;
+}
+
+.nav_carrinho
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_carrinho button
+{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.nav_carrinho p
+{
+    padding: 1vh;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    vertical-align: top;
+}

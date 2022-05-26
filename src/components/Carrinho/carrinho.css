@@ -1,0 +1,141 @@
+.products
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card_product
+{
+    width: 25%;
+    border: 1px solid black;
+    margin: 6vh;
+    padding: 2vh;
+    border-radius: 6px;
+}
+
+.card_product img
+{
+    width: 50%;
+}
+
+.btn_add
+{
+    border: none;
+    background-color: green;
+    padding: 1vh;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1vh;
+}
+
+.btn_add:hover
+{
+    background-color: rgb(19, 78, 19);
+    transition: 0.5s;
+}
+
+.container_btn
+{
+    display: flex;
+}
+
+.btn_remove
+{
+    border: none;
+    background-color: red;
+    padding: 1vh;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1vh;
+}
+
+.container_finalizar_compra
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn_finalizar_compra
+{
+    border: none;
+    background-color: green;
+    padding: 2vh 4vh;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 2vh 0;
+}
+
+.btn_delete_tudo
+{
+    border: none;
+    background-color: red;
+    padding: 2vh 4vh;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 2vh 0;
+}
+
+.container_finalizar_compra_final
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.container_finalizar_compra_final h2
+{
+    border: 1px solid gray;
+    padding: 2vh 5vh;
+    border-radius: 6px;
+    text-align: center;
+    min-width: auto;
+    max-width: 100%;
+}
+
+.container_message_carrinho
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn_back_carrinho
+{
+    cursor: pointer;
+    border: 1px solid green;    
+    padding: 1.5vh;
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1000px)
+{
+    .container_finalizar_compra_final h2, .container_finalizar_compra_final button
+    {
+        min-width: 80%;
+        max-width: 100%;
+    }
+    .btn_back_carrinho
+    {
+        width: 80%;
+    }
+}
