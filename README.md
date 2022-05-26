@@ -1,4 +1,4 @@
-## 🚀 Instalando <nome_do_projeto>
+## 🚀 Instalando Marketplace
 
 Para instalar o Marketplace, rode isso no seu terminal:
 
