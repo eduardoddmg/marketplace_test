@@ -81,11 +81,13 @@ const CarrinhoComponent:FunctionComponent<IProps> = ({ data, setData, total, set
             <button className="btn_delete_tudo" onClick={() => {
                 for (let i of data) i.quantidade = 0;
                 setQuantidade(!quantidade);
+                setTotal(0);
             }}>Remover tudo</button>
             <h2>TOTAL: R${Math.round(calcularTotal())}</h2>
             <button className="btn_finalizar_compra" onClick={() => {
                 setOpen(true)
                 for (let i of data) i.quantidade = 0;
+                setTotal(0);
             }}>Finalizar compra</button>
           </section>
     }
